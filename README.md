@@ -1,14 +1,12 @@
-# Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023
+# Build a GenAI SaaS Platform with Next.js 13, React, Tailwind, Prisma, and Stripe
 
-![Copy of Copy of Copy of Fullstack Twitter Clone](https://github.com/AntonioErdeljac/next13-ai-saas/assets/23248726/c47e604a-b50b-4eb0-b420-fda20908f522)
+[![Next.js](https://img.shields.io/badge/Next.js-13-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-17-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-2.2-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Prisma](https://img.shields.io/badge/Prisma-2.30-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
+[![Stripe](https://img.shields.io/badge/Stripe-2023-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
 
-
-
-This is a repository for Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023.
-
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ffJ38dBzrlY)
-
-Features:
+## Features
 
 - Tailwind design
 - Tailwind animations and effects
@@ -29,26 +27,27 @@ Features:
 - How to reuse layouts
 - Folder structure in Next 13 App Router
 
-### Prerequisites
+## Cloning the Repository
 
-**Node version 18.x.x**
-
-### Cloning the repository
+To get started with the project, clone the repository using the following command:
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
+git clone https://github.com/jhuboo/GenAI-SaaS-Platform.git
 ```
 
-### Install packages
+## Install Packages
+
+Navigate to the project directory and install the necessary packages:
 
 ```shell
-npm i
+npm install
 ```
 
-### Setup .env file
+## Setup Environment Variables
 
+Create a `.env` file in the root directory and add the following environment variables:
 
-```js
+```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 
@@ -68,25 +67,30 @@ STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ```
 
-### Setup Prisma
+## Setup Prisma
 
-Add MySQL Database (I used PlanetScale)
+To set up the database, push the Prisma schema to your MySQL database (you can use PlanetScale or any other MySQL database):
 
 ```shell
 npx prisma db push
-
 ```
 
-### Start the app
+## Start the App
+
+Run the development server with the following command:
 
 ```shell
 npm run dev
 ```
 
-## Available commands
+## Available Commands
 
-Running commands with npm `npm run [command]`
+You can run the following commands with npm `npm run [command]`:
 
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+| Command | Description                              |
+| ------- | ---------------------------------------- |
+| `dev`   | Starts a development instance of the app |
+
+# Images of Demo App
+
+- ![Demo 1](https://github.com/jhuboo/GenAI-SaaS-Platform)
