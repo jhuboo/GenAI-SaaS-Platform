@@ -91,6 +91,8 @@ You can run the following commands with npm `npm run [command]`:
 | ------- | ---------------------------------------- |
 | `dev`   | Starts a development instance of the app |
 
-# Images of Demo App
+# Images of the App
 
 - ![Demo 1](https://github.com/jhuboo/GenAI-SaaS-Platform/blob/main/public/screenshots/demo-1.png)
+- ![Demo 2](https://github.com/jhuboo/GenAI-SaaS-Platform/blob/main/public/screenshots/demo-2.png)
+- ![Demo 3](https://github.com/jhuboo/GenAI-SaaS-Platform/blob/main/public/screenshots/demo-3.png)
