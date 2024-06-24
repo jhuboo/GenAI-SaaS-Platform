@@ -93,4 +93,4 @@ You can run the following commands with npm `npm run [command]`:
 
 # Images of Demo App
 
-- ![Demo 1](https://github.com/jhuboo/GenAI-SaaS-Platform)
+- ![Demo 1](https://github.com/jhuboo/GenAI-SaaS-Platform/blob/main/public/screenshots/demo-1.png)
